@@ -4,33 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro e Login</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Bem-vindo</h1>
-    <h2>Cadastro</h2>
-<form action="/cadastro" method="post">
-    <label for="nome">Nome:</label>
-    <input type="text" id="nome" name="nome" required><br>
+    <div class="container">
+        <div class="form-container">
+            <h1>Bem-vindo</h1>
 
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" required><br>
+            <div class="form-box">
+                <h2>Cadastro</h2>
+                <form action="/cadastro" method="post">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required><br>
 
-    <label for="senha">Senha:</label>
-    <input type="password" id="senha" name="senha" required><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br>
 
-    <button type="submit">Cadastrar</button>
-</form>
+                    <label for="senha">Senha:</label>
+                    <input type="password" id="senha" name="senha" required><br>
 
-<h2>Login</h2>
-<form action="/login" method="post">
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" required><br>
+                    <button type="submit">Cadastrar</button>
+                </form>
+            </div>
 
-    <label for="senha">Senha:</label>
-    <input type="password" id="senha" name="senha" required><br>
+            <div class="form-box">
+                <h2>Login</h2>
+                <form action="/login" method="post">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br>
 
-    <button type="submit">Entrar</button>
-</form>
+                    <label for="senha">Senha:</label>
+                    <input type="password" id="senha" name="senha" required><br>
 
+                    <button type="submit">Entrar</button>
+                </form>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
