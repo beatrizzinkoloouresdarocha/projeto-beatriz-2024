@@ -14,24 +14,30 @@ body {
     justify-content: center;
     align-items: center;
     width: 100%;
+    padding: 20px; /* Adiciona padding para melhor visualização */
 }
 
 .form-container {
     background: white;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Aumenta a sombra para maior destaque */
+    padding: 40px;
     width: 100%;
-    max-width: 400px;
+    max-width: 600px; /* Largura do container */
+    box-sizing: border-box;
+    text-align: center; /* Centraliza o texto dentro do container */
 }
 
 h1 {
-    text-align: center;
-    margin-bottom: 20px;
+    margin-top: 0; /* Remove a margem superior para aproximar do topo */
+    margin-bottom: 20px; /* Adiciona espaço abaixo do título */
+    color: #007BFF; /* Define uma cor chamativa para o título */
+    font-size: 32px; /* Aumenta o tamanho da fonte para maior visibilidade */
+    font-weight: bold; /* Torna a fonte mais forte e destacada */
 }
 
 .form-box {
-    margin-bottom: 20px;
+    margin-bottom: 30px; /* Aumenta o espaçamento entre as caixas de formulário */
 }
 
 form {
